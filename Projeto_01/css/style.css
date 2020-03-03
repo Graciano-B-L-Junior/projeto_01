@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open sans",sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+.center{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	height: 90px;
+	background-color: #212343;
+}
+
+.header img{
+	margin: 19px;
+}
+
+
+.container-banner{
+	width: 100%;
+	height: 557px;
+	background-image: url('../images/header_bg.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.container-banner > .center{
+	height: 100%;
+	text-align: right;
+}
+
+.form{
+	display: inline-block;
+	width: 400px;
+	height: calc(100% + 30px);
+	background-color: white;
+	position: relative;
+	top: -15px;
+	border: 8px solid rgba(120,120,120,0.5);
+	text-align: left;
+	padding: 10px;
+	background-clip: padding-box;
+	
+}
+
+.form h2{
+	display: inline-block;
+	font-weight: normal;
+	color: #ccc;
+	font-size: 21px;
+	
+}
+
+.input-container{
+	margin-top: 20px;
+
+}
+
+.input-container span, .form p{
+	display: inline-block;
+	width: 100%;
+	color: #ccc;
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+
+
+.input-container input[type=text]{
+	width: 344px;
+	height: 55px;
+	border: 1px solid #ccc;
+	margin-top: 8px;
+}
+
+.input-submit-container{
+	text-align: center;
+}
+
+.input-container input[type=submit]{
+	color: white;
+	font-size: 25px;
+	width: 280px;
+	height: 56px;
+	background-color: #212343;
+	border: 0;
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+.input-container input[type=submit]:hover{
+	background-color: #323665;
+}
+
+.container-list{
+	float: left;
+	width: 619px;
+	height: 270px;
+	background-color: rgba(33,35,67,0.7);
+	margin-top: 60px;
+	margin-left: 30px;
+	padding: 30px;
+}
+
+.container-list ul{
+	list-style-position: inside;
+}
+
+.container-list ul li{
+	color: white;
+	margin-top: 18px;
+}
+
+.container2{
+	padding: 40px 0;
+	background-color: #DDDDDD;
+	text-align: center;
+}
+
+.container2 h2{
+	font-weight: normal;
+}
+
+.container2 p{
+	margin: 15px 0;
+	display: inline-block;
+	width: 698px;
+	text-align: justify;
+}
+
+.arrow{
+	position: relative;
+	top: 60px;
+	width: 40px;
+	height: 40px;
+	background-image: url('../images/arrow.png');
+	background-size: 100%;
+	left:50%;
+	margin-left: 20px;
+}
+
+.section-1{
+	padding: 40px 0;
+}
+.section-1 h2{
+	text-align: center;
+	color: #462663;
+	font-weight: normal;
+}
+
+.container-section{
+	text-align: center;
+}
+
+.container-single{
+	float: left;
+	width: 33.33%;
+	padding: 30px 0;
+}
+
+
+.footer{
+	padding-top: 60px;
+	border-top: 6px solid #212343;
+}
+
+.footer p{
+	text-align: center;
+	margin-top: 20px;
+}
